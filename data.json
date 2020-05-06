@@ -1,0 +1,88 @@
+[{
+        "available": [240, 360, 720],
+        "allowed": [360, 720],
+        "preferred": [1080],
+        "result": [360]
+    },
+    {
+        "available": [240, 720],
+        "allowed": [360, 720],
+        "preferred": [1080],
+        "result": [720]
+    },
+    {
+        "available": [240],
+        "allowed": [360, 720],
+        "preferred": [1080],
+        "result": []
+    },
+    {
+        "available": [240, 360, 720],
+        "allowed": [240, 360, 720, 1080],
+        "preferred": [240, 360],
+        "result": [240, 360]
+    },
+    {
+        "available": [240, 720],
+        "allowed": [240, 360, 720, 1080],
+        "preferred": [240, 360],
+        "result": [240, 720]
+    },
+    {
+        "available": [240, 720],
+        "allowed": [240, 360, 1080],
+        "preferred": [240, 360],
+        "result": [240]
+    },
+    {
+        "available": [720],
+        "allowed": [240, 360, 1080],
+        "preferred": [240, 360],
+        "result": []
+    },
+    {
+        "available": [240, 360],
+        "allowed": [240, 360],
+        "preferred": [720, 1080],
+        "result": [360]
+    },
+
+
+
+    {
+        "available": [240, 360, 720],
+        "allowed": [360, "any"],
+        "preferred": [360, 720],
+        "result": [360, 720]
+    },
+    {
+        "available": [240, 360, 720],
+        "allowed": [240, 360, 720],
+        "preferred": ["any", 720],
+        "result": [240, 360, 720]
+    },
+    {
+        "available": [240, 360, 720],
+        "allowed": [360, 1080],
+        "preferred": ["any", 720],
+        "result": [360]
+    },
+    {
+        "available": [240, 360, 720],
+        "allowed": [1080],
+        "preferred": ["any", 720],
+        "result": []
+    },
+    {
+        "available": [240, 360, 720],
+        "allowed": [240, 360, 720],
+        "preferred": [360, 1080],
+        "result": [240, 360]
+    },
+    {
+        "available": [240, 360, 720],
+        "allowed": [240, 720, 1080],
+        "preferred": [240, 360, 720],
+        "result": [240, 720]
+    }
+]
