@@ -66,8 +66,12 @@ function intersectionOfTwoArrays(arr1, arr2) {
     return [result, other];
 }
 
-// *** testing *** //
+// *** end of algorithm *** //
 
+
+
+
+// *** testing *** //
 
 function test(data) {
     let i = 1;
